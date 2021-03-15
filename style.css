@@ -293,7 +293,7 @@ flex-direction: column;
 
 .second-imag h1{
 font-weight: 700;
-    font-size: 72px;
+    font-size: 70px;
 }
 .chooseus p{
 
@@ -335,6 +335,35 @@ font-size: 20px;
 }
 
 
-.card-body h1 {
+.card-body  {
     font-size: 60px;
 }
+.info-div {
+    
+    padding-left: 20px;
+}
+
+.info-div p{
+font-size: 18px;
+}
+.info-div h4{
+    font-weight: bold;
+}
+
+
+    @media  (max-width: 700px) {
+        .footer-uper {
+        display: flex;
+        flex-wrap: wrap;
+        }
+    
+    }
+    
+    .main-footer{
+padding-bottom: 20px;
+background-color: #2a2525;
+    }
+
+    .logo-footer {
+        padding-top: 90px;
+    }
